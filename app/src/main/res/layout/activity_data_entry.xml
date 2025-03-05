@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Employee name-->
+<EditText
+    android:id="@+id/etEmplooyeName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Employee Name"
+    />
+
+    <!--Department-->
+<EditText
+    android:id="@+id/etDepartment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Department"
+    />
+
+    <!--Salary-->
+<EditText
+    android:id="@+id/etSalary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Salary"
+    />
+
+    <!--Joining Date-->
+<EditText
+    android:id="@+id/etJoiningDate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Joining Date"
+    />
+
+    <!--Performance Rating-->
+<EditText
+    android:id="@+id/etPerformanceRating"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Performance Rating"
+    />
+
+    <!--Username-->
+<EditText
+    android:id="@+id/etUsername"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Username"
+    />
+
+    <!--Password-->
+<EditText
+    android:id="@+id/etPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Password"
+    />
+
+    <!--Save Button-->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:text="Save"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
